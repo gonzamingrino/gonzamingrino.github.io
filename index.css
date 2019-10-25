@@ -85,7 +85,7 @@ a{
 
 @media(max-width: 640px){
     body{
-        max-height: 100%;
+        /* max-height: 100%; */
         }   
         .box{
             width: 280px;
@@ -103,15 +103,16 @@ a{
             
         }
         .box .textonotepad{
-            font-size: 10px;
+            font-size: 15px;
             position: absolute;
             z-index: 999;
             /* top: 40%; */
-            margin: auto;
-            margin-top: 15%;
-            margin-left: 15%;
+            /* margin: auto; */
+            margin-top: 90px;
+            margin-left: 70px;
             width: 150px;
             text-align: center;
             padding: 5px;
+            top: 0%;
         }
 }
