@@ -1,0 +1,75 @@
+.spinner-container{
+    width: 200px;
+}
+
+.spinner{
+    max-width: 100%;
+    animation-name: rotacion;
+    animation-iteration-count: infinite;
+    /* animation-duration: 4s; */
+    animation-direction: normal;
+}
+
+@keyframes rotacion{
+
+    0%{
+        fill: tomato;
+    }
+
+    50% {
+        fill: black;
+    }
+
+    100% {
+        transform: rotate(3600deg);
+    }
+
+}
+
+
+/* scale imagen mapa con focus en argentina, de forma que te muestre adónde estoy */
+
+/* 
+.relojfondo{
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+} */
+
+.tick{
+    box-sizing: border-box;
+    /* width: 200px;
+    height: 200px; */
+    background-image: url(.relojfondo.png);
+    background-size: contain;
+    position: relative;
+}
+
+.aguja{
+    width: 15px;
+    height: 300px;
+    background-color: black;
+    /* margin: 220px 490px; */
+    animation: reloj 60s infinite steps(60);
+    /* animation-name: reloj;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;*/ 
+    transform-origin: 50% 100%;
+    /* animation-timing-function: steps(60) */
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: calc(50% - 3px);
+}
+
+
+@keyframes reloj{
+    0%{
+
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
