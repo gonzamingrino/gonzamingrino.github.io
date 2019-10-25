@@ -9,7 +9,7 @@ body{
         background-size: 100%;
     background-image: url("mediafiles/fondobody.jpg");
     color:  black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 .cabecera{
     box-sizing: border-box;
@@ -51,7 +51,7 @@ a{
 .box .textonotepad{
     position: absolute;
     z-index: 999;
-    top: 40%;
+    top: 20%;
     margin: 50px;
     width: 300px;
     text-align: center;
@@ -88,8 +88,8 @@ a{
         max-height: 100%;
         }   
         .box{
-            width: 200px;
-            height: 200px;
+            width: 280px;
+            height: 280px;
             margin: auto;
             margin-bottom: 30px;
             display: flex;
@@ -97,16 +97,19 @@ a{
         }
         
         .box img{
-            width: 200px;
+            width: 300px;
             position: relative;
             display: inline-block;
             
         }
         .box .textonotepad{
+            font-size: 10px;
             position: absolute;
             z-index: 999;
             /* top: 40%; */
             margin: auto;
+            margin-top: 15%;
+            margin-left: 15%;
             width: 150px;
             text-align: center;
             padding: 5px;
