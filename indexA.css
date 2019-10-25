@@ -1,0 +1,74 @@
+body{
+    box-sizing: border-box;
+    background-color: black;
+    /* background-size: 1000px; */
+    width: 100%;
+    /* max-width: 1000px; */
+    background-image: url("mediafiles/fondobody.jpg");
+    color:  black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cabecera{
+    box-sizing: border-box;
+    display: flex;
+    background-color: black;
+    height: 30px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+a{
+ color: white;
+ text-decoration: none;
+ }
+
+ .footer{
+     height: 30px;
+     background-color: black;
+ }
+
+
+p{
+    font-family: cursive;
+    font-size-adjust: none;
+    overflow-wrap: break-word;
+    word-wrap: normal;
+    hyphens: auto;
+}
+
+ a:visited{
+     color: purple;
+ }
+a:hover{
+    color:darkgray;
+}
+#fondoindex{
+    /* width: 100%; */
+}
+#fondobody{
+    /* width: 100%; */
+}
+
+.box{
+    /* margin: 50%; */
+    /* width: 200px; */
+}
+
+.notepad{
+    /* margin: auto; */
+    height: 200px;
+    position: relative;
+    display: inline-block;
+}
+
+.textonotepad{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 40%; /* Adjust this value to move the positioned div up and down */
+        left: 50%;
+        text-align: center;
+        width: 60%; /* Set the width of the positioned div */
+    }}
