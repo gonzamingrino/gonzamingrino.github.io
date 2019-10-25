@@ -3,6 +3,7 @@ box-sizing: border-box;
 }
 
 body{
+    margin: 0;
     background-color: black;
     width: 100%;
     background-size: 100%;
@@ -37,17 +38,17 @@ a{
 }
 
 .texto{
-    margin: 40px;
-    background-color: rgb(192,192,192,0.7);
+    margin: 20px 0;
+    background-color: rgb(192,192,192,0.3);
     /* border: 1px solid grey; */
     padding: 10px;
-    width: 500px;
+    width: 1000px;
 
 }
 
 .portfolio{
     margin: 0 40px;
-background-color: rgb(192,192,192,0.7);
+background-color: rgb(192,192,192,0.2);
 /* border: 1px solid grey; */
 padding: 50px;
 /* height: 100px; */

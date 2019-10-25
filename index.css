@@ -15,7 +15,7 @@ body{
 .cabecera{
     box-sizing: border-box;
     display: flex;
-    background-color: rgb(0,0,0,0.6);    
+    background-color: rgb(0,0,0,0.6);  
     height: 30px;
     justify-content: space-around;
     align-items: center;
@@ -35,7 +35,7 @@ a{
 
  .box{
     width: 400px;
-    height: 400px;
+    height: 480px;
     margin: auto;
     margin-bottom: 30px;
     display: flex;
