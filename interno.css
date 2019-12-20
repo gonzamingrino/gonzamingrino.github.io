@@ -29,10 +29,12 @@ font-size: 14px;
 }
 
 a{
- color: white;
+ color:white;
  text-decoration: none;
  }
-
+#cerrarsesion{
+    color: black;
+}
  .box{
     width: 400px;
     height: 400px;

@@ -25,7 +25,7 @@ body{
 .textonotepad{
 width: 60%;
 font-family: 'Gloria Hallelujah', cursive;
-font-size: 14px;
+
 }
 
 a{
@@ -35,11 +35,10 @@ a{
 
  .box{
     width: 400px;
-    height: 400px;
+    height: 480px;
     margin: auto;
     margin-bottom: 30px;
     display: flex;
-    justify-items: center;
 }
 
 .box img{
@@ -50,9 +49,9 @@ a{
 }
 
 .infocat{
-    width: 600px;
-    margin: auto;
-    /* margin-right: 20px; */
+    /* width: 600px; */
+    margin-left: 20px;
+    margin-right: 20px;
     /* margin-top: 10px; */
     background-color: white;
     color: grey;
@@ -71,7 +70,7 @@ a{
 }
 
 .infocat p{
-    padding-left: 15px;
+    /* padding-left: 15px;
     padding-bottom: 15px; */
     margin: 0px;
 }

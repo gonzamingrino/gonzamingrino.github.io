@@ -59,9 +59,14 @@ align-items: center;
 border-radius: 50%;
 }
 
+
 .portfolio img {
     height: 60px;
     padding: 3px;
+}
+
+#utn{
+    height: 50px;
 }
 
 @media(max-width: 700px){
