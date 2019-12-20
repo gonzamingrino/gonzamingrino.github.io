@@ -10,7 +10,6 @@
 			<label for="usuario">Usuario</label>
 			<input type="text" name="usuario" id="usuario" >
 			
-			<!-- acá muestro la imagen -->
 			<div id="respuesta"></div>
 			
 			<label for="clave">Contraseña</label>

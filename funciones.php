@@ -1,5 +1,4 @@
 <?php
-	// funciones.php
 	
 	function traerNombre ($id) {
 		include("conexion.php");

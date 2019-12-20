@@ -25,21 +25,13 @@
 		<div class="listado">
 		
 			<?php
-				// 1. Me conecto a la BD
 				include("conexion.php");
-				
-				// 2. Genero la query (SELECT)
 				$ver = "SELECT * FROM libros";
-				
-				// 3. Ejecutamos la query
 				$ej = mysqli_query($conexion, $ver);
-				
-				// 4. Pregunto si NO funcionó
 				if($ej === false){
 					echo "error, ver SQL";
 				} else {
-				// 5. Muestro datos
-		while($reg = mysqli_fetch_array($ej)){
+				while($reg = mysqli_fetch_array($ej)){
 			?>
 			<a href="#" class="listado-libro">
 				<h2><?php echo $reg['titulo']; ?>
@@ -56,8 +48,8 @@
 				</p>
 			</a>
 			<?php
-		} // Cierra while
-				} // Cierra else de todo ok
+		} 
+				} 
 			?>
 			
 		</div>

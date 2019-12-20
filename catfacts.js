@@ -1,5 +1,4 @@
 
-// hacer el fetch y mostrar todo en consola
 fetch('https://catfact.ninja/fact')
 
 .then(resp => {

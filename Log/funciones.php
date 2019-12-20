@@ -1,12 +1,7 @@
 <?php
-	// funciones.php
-	
-	// Preguntar si NO existe la variable de sesión
-	
-	session_start();
+		session_start();
 	if(isset($_SESSION['id']) === false){
-		// Este usuario no está logueado
-		// entonces lo mandamos al index
+	
 		header("location:index.php");
 	}
 	
