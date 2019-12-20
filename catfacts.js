@@ -1,4 +1,5 @@
 
+// hacer el fetch y mostrar todo en consola
 fetch('https://catfact.ninja/fact')
 
 .then(resp => {
@@ -14,4 +15,4 @@ catfacts.innerHTML = `${data.fact}` ;
         console.log('Error:', error);
     });
     
-    
+     

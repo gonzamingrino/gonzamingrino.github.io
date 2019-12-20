@@ -1,10 +1,11 @@
 <?php
+	// conexion.php
 	
 	$conexion = mysqli_connect(
 		"localhost",
-		"root",
+		"id11953380_admin",
 		"minotauro19",
-		"usuariosweb"
+		"id11953380_usuariosweb"
 	);
 	
 ?>
